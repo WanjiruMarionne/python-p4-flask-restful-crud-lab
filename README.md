@@ -53,14 +53,14 @@ In `server/`, run:
 
 ```console
 $ flask db upgrade
-$ python seed.py
+$ python3 seed.py
 ```
 
 To see how the React application and Flask API are interacting, you can run the
 Flask application in one terminal by running:
 
 ```console
-$ python app.py
+$ python3 app.py
 ```
 
 Then, **open another terminal** and run React:
